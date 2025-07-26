@@ -118,6 +118,8 @@ All models were evaluated on:
 * RMSE (Root Mean Squared Error)
 * R² Score (Coefficient of Determination)
 
+Short Term Forecasting(15 minutes ahead)
+
 | Matric              | Lasso Regression   | Random Forest       | XGBoost             | LSTM                |
 |-------------------|-------------------|-------------------|-------------------|-------------------|
 | MSE                 | 6.723              | 3.031               | 2.650               | 1.169               |
@@ -125,6 +127,14 @@ All models were evaluated on:
 | MAE                 | 2.088              | 0.851               | 0.818               | 0.578               |
 | R-Square            | 0.398              | 0.657               | 0.700               | 0.811               |
 
+Long Term Forecasting(60 minutes ahead)
+
+| Matric              | Lasso Regression   | Random Forest       | XGBoost             | LSTM                |
+|-------------------|-------------------|-------------------|-------------------|-------------------|
+| MSE                 | 8.772              | 3.034               | 3.882               | 1.746               |
+| RMSE                | 2.961              | 1.741               | 1.970               | 1.321               |
+| MAE                 | 2.574              | 0.851               | 1.112               | 0.643               |
+| R-Square            | 0.214              | 0.657               | 0.561               | 0.802               |
 
 **Best performing model:** LSTM
 **Best for simplicity & interpretability:** Lasso Regression
