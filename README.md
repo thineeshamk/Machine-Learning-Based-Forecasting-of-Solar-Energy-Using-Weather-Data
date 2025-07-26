@@ -1,4 +1,4 @@
-# Weather-Driven Solar Energy Forecasting
+# Machine Learning-Based Forecasting of Solar Energy Using Weather Data
 
 This is a machine learning project developed as part of a group research project for the BSc (Hons) in Data Science and Business Analytics at General Sir John Kotelawala Defence University.
 
