@@ -102,7 +102,7 @@ pip install -r requirements.txt
 To train and evaluate the models, open and run the following Jupyter notebooks:
 
 1. `xgboost_short_term.py`  
-2. ``  
+2. `xgboost_long_term (1).py`  
 3. `src/Final Short term and long term XGBoost model.ipynb`  
 4. `src/Lasso_Regression_Model (2).ipynb`  
 5. `src/codeFinal.ipynb`  
