@@ -105,7 +105,7 @@ To train and evaluate the models, open and run the following Jupyter notebooks:
 2. `xgboost_long_term (1).py`  
 3. `lstm_15min_model.py`  
 4. `lstm_1hr_model.py`  
-5. `src/codeFinal.ipynb`  
+5. `random_forest_short_term_long_term.py`  
 
 **Instructions:**
 - Open each notebook using Jupyter Notebook or JupyterLab.
