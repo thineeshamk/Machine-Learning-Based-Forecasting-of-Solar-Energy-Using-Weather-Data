@@ -70,7 +70,7 @@ Aim- The aim of this project is to implement, evaluate and deploy an accurate an
 solar-energy-forecasting/
 ├── data/               ← (Not included – contains private operational and weather data)
 ├── notebooks/          ← Jupyter Notebooks for EDA 
-├── src/                ← ipynb files for training and other preprocessing tasks
+├── Forecasting Models/ ← .py files for training and other preprocessing tasks
 ├── app/                ← Deployment files (e.g., Streamlit app)
 ├── reports/            ← Graphs, figures, and evaluation plots
 ├── README.md           ← Project explanation (this file)
