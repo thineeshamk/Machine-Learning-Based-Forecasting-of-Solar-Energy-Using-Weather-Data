@@ -99,18 +99,18 @@ pip install -r requirements.txt
 
 ### 3. Run the Models (Optional)
 
-To train and evaluate the models, open and run the following Jupyter notebooks:
+To train and evaluate the models, open and run the following python files:
 
 1. `xgboost_short_term.py`  
 2. `xgboost_long_term (1).py`  
 3. `lstm_15min_model.py`  
 4. `lstm_1hr_model.py`  
-5. `random_forest_short_term_long_term.py`  
+5. `random_forest_short_term_long_term.py`
+6. `lasso_regression_short_term_long_term.py`
 
 **Instructions:**
-- Open each notebook using Jupyter Notebook or JupyterLab.
 - Run all cells by clicking **"Run All"** or manually running them one by one.
-- Each notebook contains code to load data, train models, and display results.
+- Each notebook contains code to load data, some data pre processing parts, train models, testing models and display results.
 
 ### 4. Launch the Streamlit App
 
