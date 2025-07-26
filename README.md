@@ -118,6 +118,12 @@ All models were evaluated on:
 * RMSE (Root Mean Squared Error)
 * R² Score (Coefficient of Determination)
 
+| Matric              | Lasso Regression   | Random Forest       | XGBoost             | LSTM                |
+|-------------------|-------------------|-------------------|-------------------|-------------------|
+| MSE                 | 6.723              | 3.031               | 2.650               | 1.169               |
+| RMSE                | 2.592              | 1.741               | 1.627               | 1.292               |
+| MAE                 | 2.088              | 0.851               | 0.818               | 0.578               |
+| R-Square            | 0.398              | 0.657               | 0.700               | 0.811               |
 
 
 **Best performing model:** LSTM
