@@ -2,7 +2,7 @@
 
 This is a machine learning project developed as part of a group research project for the BSc (Hons) in Data Science and Business Analytics at General Sir John Kotelawala Defence University.
 
-The project focuses on building an accurate and efficient solar power output prediction system for the **Vydexa Solar Power Plant** in Vavuniya, Sri Lanka, by using real-world operational and weather data.
+The project focuses on building an accurate and efficient solar power output forecasting system for the Vydexa Solar Power Plant in Vavuniya, Sri Lanka, using real-world operational and weather data. The system aims to provide both short-term (15-minute ahead) and long-term (60-minute ahead) forecasts to support better energy management and decision-making.
 
 ---
 
@@ -21,7 +21,7 @@ By integrating solar plant operational data with local weather data, the model h
 
 - Acquire and clean solar and weather datasets
 - Perform exploratory data analysis (EDA)
-- Train and evaluate ML models like:
+- Train and evaluate ML models for short-term (15-minute) and long-term (60-minute) solar power forecasting, including:
   - Lasso Regression
   - Random Forest
   - XGBoost
@@ -117,6 +117,8 @@ All models were evaluated on:
 * MAE (Mean Absolute Error)
 * RMSE (Root Mean Squared Error)
 * R² Score (Coefficient of Determination)
+
+
 
 **Best performing model:** LSTM
 **Best for simplicity & interpretability:** Lasso Regression
