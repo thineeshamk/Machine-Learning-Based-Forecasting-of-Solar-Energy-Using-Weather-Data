@@ -104,7 +104,7 @@ To train and evaluate the models, open and run the following Jupyter notebooks:
 1. `xgboost_short_term.py`  
 2. `xgboost_long_term (1).py`  
 3. `lstm_15min_model.py`  
-4. `src/Lasso_Regression_Model (2).ipynb`  
+4. `lstm_1hr_model.py`  
 5. `src/codeFinal.ipynb`  
 
 **Instructions:**
