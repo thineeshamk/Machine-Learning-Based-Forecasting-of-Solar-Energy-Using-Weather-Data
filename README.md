@@ -17,6 +17,16 @@ By integrating solar plant operational data with local weather data, the model h
 
 ---
 
+---
+
+## Problem Statement and Aim
+
+Problem Statement- How can the accurate and efficient prediction of short-term and long-term solar power output generation be achieved for a solar power plant, incorporating comprehensive weather data?
+
+Aim- The aim of this project is to implement, evaluate and deploy an accurate and efficient predictive model that integrates comprehensive weather data with operational data of the power plant to forecast the short term (15 minute) and long term (1 hour) power output of the solar power plant.
+
+---
+
 ## Objectives
 
 - Acquire and clean solar and weather datasets
