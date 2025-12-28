@@ -68,14 +68,22 @@ Aim- The aim of this project is to implement, evaluate and deploy an accurate an
 
 ```text
 solar-energy-forecasting/
-├── data/               ← (Not included – contains private operational and weather data)
-├── notebooks/          ← Jupyter Notebooks for EDA 
-├── Forecasting Models/ ← .py files for training and other preprocessing tasks
-├── app/                ← Deployment files (e.g., Streamlit app)
-├── reports/            ← Graphs, figures, and evaluation plots
-├── README.md           ← Project explanation (this file)
-├── requirements.txt    ← List of Python libraries used
-└── Final_Report.pdf    ← Project documentation/report
+├── EDA Notebooks for Last 3 Months/    ← Jupyter notebooks for Exploratory Data Analysis
+├── EDA Reports for Last 3 Months/      ← Generated reports and figures from EDA
+├── LASSO Regression Models/            ← Training scripts for LASSO models
+├── LSTM Models/                        ← Training scripts for LSTM Neural Networks
+├── Model Notebooks/                    ← Experimental notebooks for various models
+├── Random Forest Models/               ← Training scripts for Random Forest models
+├── Thesis Paper/                       ← Final documentation and research paper
+├── XGBoost Models/                     ← Training scripts for XGBoost models
+├── model_artifacts_15min/              ← Saved models (.h5) & scalers (.pkl) for 15-min forecast
+├── model_artifacts_1hr/                ← Saved models (.h5) & scalers (.pkl) for 1-hr forecast
+├── .gitignore                          ← Files to be ignored by Git
+├── LICENSE                             ← Project license
+├── README.md                           ← Project documentation (this file)
+├── app.py                              ← Main Streamlit application file
+├── requirements.txt                    ← List of Python dependencies
+└── test.py                             ← Simple script to test environment setup
 ````
 
 > Note: Due to privacy and data protection policies, the `data/` folder is not included in this repository.
@@ -87,37 +95,30 @@ solar-energy-forecasting/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/solar-energy-forecasting.git
+git clone [https://github.com/YOUR_USERNAME/solar-energy-forecasting.git](https://github.com/YOUR_USERNAME/solar-energy-forecasting.git)
 cd solar-energy-forecasting
 ```
 
-### 2. Install Dependencies
+### 2. Create a Virtual Environment
+
+```bash
+python -m venv venv
+.\venv\Scripts\activate
+```
+
+### 3. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3. Run the Models (Optional)
-
-To train and evaluate the models, open and run the following python files:
-
-1. `xgboost_short_term.py`  
-2. `xgboost_long_term (1).py`  
-3. `lstm_15min_model.py`  
-4. `lstm_1hr_model.py`  
-5. `random_forest_short_term_long_term.py`
-6. `lasso_regression_short_term_long_term.py`
-
-**Instructions:**
-- Run all cells by clicking **"Run All"** or manually running them one by one.
-- Each notebook contains code to load data, some data pre processing parts, train models, testing models and display results.
-
 ### 4. Launch the Streamlit App
 
 ```bash
-streamlit run app/streamlit_app.py
+streamlit run app.py
 ```
-
+**Instructions:**
+- The application will launch in your default web browser (usually at http://localhost:8501).
 ---
 
 ## Results Summary
